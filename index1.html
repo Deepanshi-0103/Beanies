@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+    <header>
+        <h2 class="prags">BEANIES</h2>
+        
+        <nav class="nav">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="menu.html">Menu</a>
+            <a href="#">Contact</a>
+            <button class="btn-popup" onclick="openPopup()">Login</button>
+            <div class="login-popup" id="loginPopup">
+                <div class="popup-content">
+                    <span class="close-popup" onclick="closePopup()">&times;</span>
+                    <h2>Login</h2>
+                    <form>
+                        <input type="text" placeholder="Username" required>
+                        <input type="password" placeholder="Password" required>
+                        <button type="submit" class="login-btn">Login</button>
+                    </form>
+                </div>
+            </div></nav>
+    </header>
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="content">
+            <h1>Delicious Coffee <br><span>Break Alert!</span></h1>
+            <p><i>Fuel your day with the perfect brew – Where every sip tells a story.</i><br>
+            Discover the art of exceptional coffee, crafted to awaken your senses.
+            From bean to cup, experience the perfect blend of flavor and passion.</p>
+            <button class="explore">Explore More</button>
+        
+        </div>
+        
+    </div>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu-section">
+        <h2>Our Best Serves</h2>
+        <div class="menu-container">
+            <div class="coffee-box">
+                <img src="1.jpg" alt="Coffee Name">
+                <div class="coffee-info">
+                    <h3>Espresso</h3>
+                    <p>Rich and creamy shot of espresso. Perfect to kickstart your day.</p>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="coffee-box">
+                <img src="latte.jpeg" alt="Latte">
+                <div class="coffee-info">
+                    <h3>Latte</h3>
+                    <p>A perfect blend of espresso and steamed milk, topped with a silky foam.</p>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+            <div class="coffee-box">
+                <img src="3.jpeg" alt="Cappuccino">
+                <div class="coffee-info">
+                    <h3>Cappuccino</h3>
+                    <p>Classic Italian coffee with a balance of espresso, steamed milk, and foam.</p>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+            <div class="coffee-box">
+                <img src="mocha.jpeg" alt="Mocha">
+                <div class="coffee-info">
+                    <h3>Mocha</h3>
+                    <p>A chocolate-infused coffee treat with a smooth espresso base.</p>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+            <div class="coffee-box">
+                <img src="macchiato.jpeg" alt="Macchiato">
+                <div class="coffee-info">
+                    <h3>Macchiato</h3>
+                    <p>An espresso with a dash of foam for a bold, rich flavor.</p>
+                </div>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        
+            <div class="coffee-box">
+                <img src="americano.webp" alt="Americano">
+                <div class="coffee-info">
+                    <h3>Americano</h3>
+                    <p>Smooth espresso diluted with hot water for a lighter coffee experience.</p>
+                
+                    <button class="add-to-cart">Add to Cart</button>
+                </div>
+         
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>About Beanies</h3>
+            <p>At Beanies, we’re passionate about bringing you the best coffee experience. From premium beans to perfect brews, we make every cup special.</p>
+            <p>Contact us: info@beanies.com | +123 456 789</p>
+            <p>&copy; 2024 Beanies. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
